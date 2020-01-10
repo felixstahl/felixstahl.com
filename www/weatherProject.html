@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>(Secret) weather API project</title>
+	<!-- custom font -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	
+	<!-- reset css stylesheet  -->
+	<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<!-- create css stylesheet  -->
+	<link rel="stylesheet" type="text/css" href="/static/css/weatherProject.css">
+  
+	<!-- JavaScript / JSON -->
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+	<script src="/weatherProject.js"></script>
+</head>
+<body>
+	<h1>Show temperature outside at coordinate lon:18, lat:59</h1>
+	<div class="weatherButton">
+		<button class="weatherButton" id="knappTest">Give me temp</button>
+	</div>
+	<div class="weatherBox" id="showTemp"></div>
+</body>
+</html>
