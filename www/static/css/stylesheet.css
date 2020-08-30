@@ -26,6 +26,7 @@ div.welcome {
 img.me {
   display: inline-block;
   object-fit:cover;
+  max-width: 100%;
   width:200px;
   height:181px;
   margin-left: 0.3em;
@@ -76,4 +77,13 @@ footer {
   margin-top: -50px;
   padding-top: 0.5em;
   text-align: center;
+}
+
+@media screen and (max-width:320px){
+  div.outerWrapper{
+    width: 320px;
+  }
+  footer {
+    width: 320px;
+  }
 }
